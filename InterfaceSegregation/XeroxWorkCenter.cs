@@ -2,6 +2,7 @@
 
 public class XeroxWorkCenter : IMultiFunction
 {
+    //this is a poor design for an Interface
     public void Print()
     {
         throw new NotImplementedException();

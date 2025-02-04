@@ -1,8 +1,8 @@
 ﻿namespace InterfaceSegregation;
 
-public class HpPrinter : IMultiFunction
+public class CanonPrinter : IMultiFunction
 {
-    //this machine doesn't have abitlity to send fax
+    //this device has only abitliy to print
     public void Print()
     {
         throw new NotImplementedException();
@@ -15,17 +15,17 @@ public class HpPrinter : IMultiFunction
 
     public void Scan()
     {
-        throw new NotImplementedException();
+      
     }
 
     public void ScanPhoto()
     {
-        throw new NotImplementedException();
+       
     }
 
     public void Fax()
     {
-      
+        
     }
 
     public void InternetFax()
